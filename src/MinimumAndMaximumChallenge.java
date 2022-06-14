@@ -5,8 +5,8 @@ public class MinimumAndMaximumChallenge {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int min = 2147483647;
-        int max = -2147483648;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
         //boolean first = true;
 
         while(true) {
